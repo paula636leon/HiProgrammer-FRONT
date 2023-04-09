@@ -47,7 +47,7 @@ const Formulario = () => {
 
           try {
             await axios.post(
-              "https://helloprogrammer-api.up.railway.app/api/addCustomer",
+              "https://hiprogrammer-api.up.railway.app/api/addCustomer",
               valores
             );
             cambiarFormularioEnviado(true);
